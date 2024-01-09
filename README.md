@@ -1,10 +1,10 @@
-README for Unique Line Extractor & Merger
-  Introduction
+# README for Unique Line Extractor & Merger
+  # Introduction
 
   Welcome to the Unique Line Extractor repository! This Python script is a powerful tool designed for crawling through directories and subdirectories, extracting unique lines from text files, and generating summarized output files. 
   It's crafted to handle large datasets efficiently and ensure optimal performance without exceeding system memory limits.
   
-  Key Features
+  # Key Features
 
   Robust Directory Crawling: Recursively processes text files in specified directories and their subdirectories.
   
@@ -26,23 +26,24 @@ README for Unique Line Extractor & Merger
   
   Summary Output Generation: Produces a consolidated summary file in each processed directory.
 
-System Requirements
+# System Requirements
 
   Python 3.x
+  
   Required Libraries: os, argparse, tempfile, time, re, psutil, tqdm, send2trash
 
-Installation Instructions
+# Installation Instructions
 
 Clone the repository using the following command:
 
     git clone https://github.com/WhiteyCookie/unique-line-extractor.git
 
-How to Use
+# How to Use
 
   Execute the script via the command line, with the option to specify parameters such as the start directory, output file naming, and maximum memory usage. Without arguments it will of cource run its default configuration (see below),
   crawling recursively down its root dir, processing all .txt files in there.
 
-Example Usage:
+# Example Usage:
 
   Basic:
 
@@ -62,14 +63,14 @@ Command Line Arguments:
 
 
 
-Contributing
+# Contributing
 
   Your contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. Fork the repository, make your changes, and submit a pull request.
 
-Acknowledgments
+# Acknowledgments
 
   Special thanks to OpenAI's ChatGPT for its invaluable assistance during the development of this project. The guidance and support provided by ChatGPT were instrumental in addressing various coding challenges and enhancing the script's functionality.
 
-License
+# License
 
   This project is released under the GNU General Public License (GPL), which provides copyleft for the distribution of free software. For more details, see the LICENSE file.
